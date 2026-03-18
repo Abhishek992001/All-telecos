@@ -1,0 +1,32 @@
+[
+  {
+    "verdict": "FAIL",
+    "evidence": "Sheet M8398-G2 (Overall Site Plan) uses scale 1:1500, which is classified as 'Not Preferred' per the standard drawing scale reference. Sheet M8398-G3 uses 1:200 (Standard/Preferred) and Sheet M8398-G3-2 uses 1:25 (Acceptable), both of which comply. The 1:1500 scale on M8398-G2 should be highlighted as non-compliant.",
+    "rule_id": "R002",
+    "rule_text": "Drawings must be correct scale in all sheets"
+  },
+  {
+    "verdict": "FAIL",
+    "evidence": "Page 1 (Overall Site Plan, M8398-G2) shows SCALE 1:1500, which is a non-standard scale. Standard scales should be used (e.g., 1:1000 or 1:2000). The reference demonstrates that the scale shown must be a standard one matching the viewport scale. Pages 2 and 3 show standard scales (1:200 and 1:25 respectively), but the non-standard 1:1500 on the overall site plan constitutes a failure of this check.",
+    "rule_id": "R003",
+    "rule_text": "Check scale with viewport"
+  },
+  {
+    "verdict": "PASS",
+    "evidence": "All visible sheets contain the 'FOR CONSTRUCTION' stamp in the title block area. Sheet M8398-00 (cover sheet) shows 'FOR CONSTRUCTION' in large text at bottom right. Sheets M8398-G2, M8398-G4, M8398-S4, and M8398-E1 all display 'FOR CONSTRUCTION' in the Drawing Status field of their respective title blocks.",
+    "rule_id": "R004",
+    "rule_text": "FC stamp correctly mentioned"
+  },
+  {
+    "verdict": "PASS",
+    "evidence": "Existing elements across all three FC drawing pages (existing buildings, roads, cable trays, walkways, handrails, antenna mounts, signage) are drawn with thin/unbold lines consistent with the 'Exist' layer convention in the reference. Proposed/new elements (new walkways, new handrails, new antennas, new RRUs, new signage) are rendered with bold/heavier lines consistent with the 'New' layer convention. The layer weight distinction between existing (unbold) and proposed (bold) is correctly followed throughout pages M8398-G2, M8398-G3, and M8398-G3-2.",
+    "rule_id": "R005",
+    "rule_text": "Layers correctly followed"
+  },
+  {
+    "verdict": "UNCLEAR",
+    "evidence": "The FC drawing pages provided show only the plotted output (plan views and details). The layer bold/unbold formatting per the child CAD template rule must be verified in the CAD model space layer panel, which is not visible in the submitted drawing pages. Cannot confirm whether existing layers are unbold and proposed/new layers are bold without access to the CAD layer manager view.",
+    "rule_id": "R005b",
+    "rule_text": "Child CAD template layer format"
+  }
+]
