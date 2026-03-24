@@ -30,7 +30,7 @@ BASE_DIR = Path(__file__).parent
 UPLOAD_DIR = BASE_DIR / "drawings"
 UPLOAD_DIR.mkdir(exist_ok=True)
 
-CHECKLIST_PATH = BASE_DIR / "reference_images" / "Optus_DFC_Checklist_12012026(req) (2).xlsx"
+CHECKLIST_PATH = Path("C:/Users/AbhishekP/reference_validator/reference_images/Optus_DFC_Checklist.xlsx")
 
 jobs = {}
 
