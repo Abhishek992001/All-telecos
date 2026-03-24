@@ -14,10 +14,10 @@ from reference_validator import run_and_return
 # =========================
 app = FastAPI()
 
-# 🔥 CORS (IMPORTANT for frontend)
+# 🔥 CORS (frontend compatibility)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # change later if needed
+    allow_origins=["*"],  # tighten later if needed
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -61,9 +61,8 @@ def run_job(job_id: str, file_path: Path):
         jobs[job_id]["status"] = "failed"
         jobs[job_id]["error"] = str(e)
 
-
 # =========================
-# 🔥 VALIDATE ENDPOINT
+# VALIDATE (ENTRY POINT)
 # =========================
 @app.post("/validate")
 async def validate(pdf_file: UploadFile = File(...)):
@@ -84,7 +83,7 @@ async def validate(pdf_file: UploadFile = File(...)):
         "summary": {}
     }
 
-    # Run in background thread
+    # Run in background
     thread = threading.Thread(
         target=run_job,
         args=(job_id, file_path)
@@ -96,9 +95,8 @@ async def validate(pdf_file: UploadFile = File(...)):
         "status": "queued"
     }
 
-
 # =========================
-# 🔥 STATUS ENDPOINT
+# STATUS
 # =========================
 @app.get("/status/{job_id}")
 def get_status(job_id: str):
@@ -106,6 +104,38 @@ def get_status(job_id: str):
         return {"error": "Job not found"}
     return jobs[job_id]
 
+# =========================
+# RESULTS
+# =========================
+@app.get("/results/{job_id}")
+def get_results(job_id: str):
+    job = jobs.get(job_id)
+
+    if not job:
+        return {"error": "Job not found"}
+
+    if job["status"] != "complete":
+        return {"error": "Job not completed"}
+
+    return job["results"]
+
+# =========================
+# REPORT (SUMMARY + RESULTS)
+# =========================
+@app.get("/report/{job_id}")
+def get_report(job_id: str):
+    job = jobs.get(job_id)
+
+    if not job:
+        return {"error": "Job not found"}
+
+    if job["status"] != "complete":
+        return {"error": "Job not completed"}
+
+    return {
+        "summary": job["summary"],
+        "results": job["results"]
+    }
 
 # =========================
 # HEALTH CHECK
