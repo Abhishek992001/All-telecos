@@ -1,0 +1,56 @@
+[
+  {
+    "rule_id": "TEXT001",
+    "rule_text": "All text uppercase",
+    "verdict": "FAIL",
+    "evidence": "Basic uppercase check"
+  },
+  {
+    "rule_id": "R001",
+    "rule_text": "Drawings must be correct scale in all the sheets",
+    "verdict": "UNCLEAR",
+    "evidence": ""
+  },
+  {
+    "rule_id": "R002",
+    "rule_text": "Check scale with viewport",
+    "verdict": "UNCLEAR",
+    "evidence": ""
+  },
+  {
+    "rule_id": "R003",
+    "rule_text": "FC stamp is correctly mentioned to all sheets?",
+    "verdict": "UNCLEAR",
+    "evidence": ""
+  },
+  {
+    "rule_id": "R004",
+    "rule_text": "Layers correcly followed",
+    "verdict": "UNCLEAR",
+    "evidence": ""
+  },
+  {
+    "rule_id": "R005",
+    "rule_text": "Site number/Name/Address details correct",
+    "verdict": "UNCLEAR",
+    "evidence": ""
+  },
+  {
+    "rule_id": "R006",
+    "rule_text": "Add structure owner site ID. (Indara, Amplitel & BAI etc)",
+    "verdict": "UNCLEAR",
+    "evidence": ""
+  },
+  {
+    "rule_id": "R007",
+    "rule_text": "Work authority number is correct",
+    "verdict": "UNCLEAR",
+    "evidence": ""
+  },
+  {
+    "rule_id": "R008",
+    "rule_text": "Client logo is correct",
+    "verdict": "UNCLEAR",
+    "evidence": ""
+  }
+]

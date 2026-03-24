@@ -1,0 +1,38 @@
+[
+  {
+    "rule_id": "TEXT001",
+    "rule_text": "All text uppercase",
+    "verdict": "FAIL",
+    "evidence": "Basic uppercase check"
+  },
+  {
+    "rule_id": "R001",
+    "rule_text": "Drawings must be correct scale in all the sheets",
+    "verdict": "PASS",
+    "evidence": "Cover sheet (H8099-00) has no scale mentioned, which is correct per guidance. All other sheets have scales specified: H8099-G1 (50mm A3), H8099-G2 (SCALE 1:2000), H8099-G3 (SCALE 1:100), H8099-G3-1 (SCALE 1:10), H8099-G4 (SCALE 1:800), H8099-A1 through H8099-A3 (data tables/summary - not scaled drawings), H8099-P1 (RF plumbing diagram - not scaled), H8099-F1 (SCALE 1:20), H8099-F1-1 and H8099-F1-2 (SCALE N 1:5). All applicable technical drawings contain proper scales."
+  },
+  {
+    "rule_id": "R002",
+    "rule_text": "Check scale with viewport",
+    "verdict": "FAIL",
+    "evidence": "CAD viewport shows Annotation scale 1:100 and Standard scale 1:100_1, but the Detail Scale marked on drawing is 1:100. The viewport Standard scale displays '1:100_1' which does not match the stated detail scale of 1:100 shown in the drawing callout box. Scales are inconsistent between viewport and drawing annotation."
+  },
+  {
+    "rule_id": "R003",
+    "rule_text": "FC stamp is correctly mentioned to all sheets?",
+    "verdict": "FAIL",
+    "evidence": "DRAFT watermark is not visible on any of the drawing sheets. All sheets display 'FOR CONSTRUCTION' stamp instead. Sheet H8099-00 (cover page), H8099-G1, H8099-G2, H8099-G3, H8099-G3-1, H8099-G4, H8099-A1, H8099-A2, H8099-A3, H8099-P1, H8099-F1, H8099-F1-1, and H8099-F1-2 all contain 'FOR CONSTRUCTION' designation but lack the required DRAFT watermark."
+  },
+  {
+    "rule_id": "R004",
+    "rule_text": "Site number/Name/Address details correct",
+    "verdict": "PASS",
+    "evidence": "Site ID H8097 (also referenced as H8099 in some documents), Site Name 'AUSTINS FERRY', and Address 'LOT 13 PLAN 178737, POIMENA RESERVE, WAKEHURST RD, AUSTINS FERRY, TAS 7011' are clearly documented and consistent across cover sheet and internal drawings. JV Site ID 'JH3038' is also confirmed as Optus Vodafone Joint Venture."
+  },
+  {
+    "rule_id": "R005",
+    "rule_text": "Add structure owner site ID. (Indara, Amplitel & BAI etc)",
+    "verdict": "FAIL",
+    "evidence": "Structure owner site ID for Indara, Amplitel, or BAI is not visible or documented on the cover sheet or any referenced sheets. Only operator information (OPTUS and VODAFONE) is shown; no structure owner site ID is provided."
+  }
+]

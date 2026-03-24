@@ -1,0 +1,56 @@
+[
+  {
+    "rule_id": "TEXT001",
+    "rule_text": "All text uppercase",
+    "verdict": "FAIL",
+    "evidence": "Basic uppercase check"
+  },
+  {
+    "rule_id": "R001",
+    "rule_text": "Drawings must be correct scale in all the sheets",
+    "verdict": "PASS",
+    "evidence": "All sheets requiring scale have scales mentioned. H8099-00 (cover) has no scale (acceptable per rule). H8099-G1 has scale bar 50mm. H8099-G2 has 'SCALE 1:2000'. H8099-G3 has 'SCALE 1:100'. H8099-G3-1 has 'SCALE 1:10'. H8099-G4 has 'SCALE 1:100'. H8099-A1, H8099-A2, H8099-A3 are tables/data sheets (no scale required). H8099-P1 is RF plumbing diagram (no scale marked but acceptable for schematic). H8099-F1 has 'SCALE 1:20'. H8099-F1-1 has 'SCALE N 1.5'. H8099-F1-2 has 'SCALE N 1.5'. All working drawings have appropriate scales specified."
+  },
+  {
+    "rule_id": "R002",
+    "rule_text": "Check scale with viewport",
+    "verdict": "FAIL",
+    "evidence": "Viewport shows Annotation scale 1:100 and Standard scale 1:100_1, but the detail drawing in CAD (first image) displays 'DETAIL SCALE 1:100' which matches annotation scale. However, the overall site plan (drawing H8099-G2) indicates 'SCALE 1:2000' at bottom, which does not match the viewport scales shown (1:100 and 1:100_1). Scale mismatch detected between CAD viewport and drawing scale notation."
+  },
+  {
+    "rule_id": "R003",
+    "rule_text": "FC stamp is correctly mentioned to all sheets?",
+    "verdict": "FAIL",
+    "evidence": "DRAFT watermark is not visible on all sheets. While the first image shows a clear DRAFT watermark, subsequent drawing sheets (H8099-00, H8099-G1, H8099-G2, H8099-G3, H8099-G3-1, H8099-G4, H8099-A1, H8099-A2, H8099-A3, H8099-P1, H8099-F1, H8099-F1-1, H8099-F1-2) display 'FOR CONSTRUCTION' stamp instead of DRAFT watermark. Per rule guidance, DRAFT watermark must be present on all drawing pages. The presence of FOR CONSTRUCTION stamp does not satisfy the DRAFT watermark requirement."
+  },
+  {
+    "rule_id": "R004",
+    "rule_text": "Layers correcly followed",
+    "verdict": "FAIL",
+    "evidence": "Layer usage inconsistency detected. Review of layer legend and drawing elements shows: (1) In the layer legend list (first image), items marked 'Exist' appear in regular text but should be unbold/light per rule - examples: 'Ant Bracket', 'Ant Mount Exist', 'Ant Panel Exist', 'Building Exist', 'Cable Ladder Exist'; (2) Items marked 'New' appear in bold/yellow text which is correct - examples: 'Ant Panel New', 'Cable Ladder New', 'Conc Line 0.35'; (3) However, in actual drawing sheets (site plans, antenna layouts), the visual distinction between existing (unbold/light) and proposed/new (bold) elements is not consistently applied throughout. Some existing elements lack proper light/unbold presentation, and some proposed elements lack proper bold emphasis. This violates R004 requirement for consistent Existing\u2192Unbold and Proposed\u2192Bold layer application across as-built file."
+  },
+  {
+    "rule_id": "R005",
+    "rule_text": "Site number/Name/Address details correct",
+    "verdict": "PASS",
+    "evidence": "Site ID H8099, Site Name AUSTINS FERRY, Address LOT 13 PLAN 178737, POIMENA RESERVE, WAKEHURST RD, AUSTINS FERRY, TAS 7011, and JV Site ID JH3038 all clearly visible and correct on cover sheet"
+  },
+  {
+    "rule_id": "R006",
+    "rule_text": "Add structure owner site ID. (Indara, Amplitel & BAI etc)",
+    "verdict": "PASS",
+    "evidence": "Structure owner site ID clearly identified: Optus Vodafone Joint Venture (JH3038) with operators specified on cover sheet and throughout documentation"
+  },
+  {
+    "rule_id": "R007",
+    "rule_text": "Work authority number is correct",
+    "verdict": "PASS",
+    "evidence": "Work Authority ID WA ID 658102 is clearly visible and correctly displayed in the Scope of Works Summary box at the top of FORM A. The WA number is referenced as 'WA ID 658102' and is associated with the upgrade scope for the 5G eJV project at OPTUS SITE - H8099."
+  },
+  {
+    "rule_id": "R008",
+    "rule_text": "Client logo is correct",
+    "verdict": "PASS",
+    "evidence": "Client logo (Optus) present on ALL sheets in correct teal/cyan color. Vendor logo (CPS - Technology & Infrastructure) present on ALL sheets in correct red/maroon color. Both logos verified on: H8099-00, H8099-G1, H8099-G2, H8099-G3, H8099-G3-1, H8099-G4, H8099-A1, H8099-A2, H8099-A3, H8099-P1, H8099-F1, H8099-F1-1, H8099-F1-2. Logo placement consistent and proper throughout document package."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "rule_id": "R001",
+    "rule_text": "Drawings must be correct scale in all the sheets",
+    "verdict": "PASS",
+    "evidence": "Page 1 (H8099-00) is a cover sheet with no scale required - CORRECT. Page 2 (H8099-G1) is Site Specifications with no scale shown, appears to be general information/notes page - ACCEPTABLE. Page 3 (H8099-G2) is Overall Site Plan with scale '1:2000' clearly marked below the drawing title - CORRECT. All sheets follow the rule that first sheets (cover, specifications) may not have scale, while drawing sheets must have scale. Scale 1:2000 is a Preferred standard scale per reference guidance."
+  },
+  {
+    "rule_id": "R002",
+    "rule_text": "Check scale with viewport",
+    "verdict": "UNCLEAR",
+    "evidence": "The FC drawing pages provided are static images without access to CAD software or viewport properties. The reference image shows a viewport dialog with 'Annotation scale: 1:100' and 'Standard scale: 1:100_1' visible. Page H8099-G2 shows 'SCALE 1:2000' for the Overall Site Plan, but without CAD access to verify the actual viewport scale settings and confirm they match, this cannot be definitively verified. The static drawing images do not provide visibility into the viewport scale configuration that CAD access would reveal."
+  },
+  {
+    "rule_id": "R003",
+    "rule_text": "FC stamp is correctly mentioned to all sheets?",
+    "verdict": "FAIL",
+    "evidence": "DRAFT watermark is not visible on any of the three FC drawing pages provided. All pages show 'FOR CONSTRUCTION' stamp instead. The reference image clearly shows a red 'DRAFT' watermark that should be present on all sheets, but it is absent from pages H8099-00, H8099-G1, and H8099-G2."
+  },
+  {
+    "rule_id": "R004",
+    "rule_text": "Layers correcly followed",
+    "verdict": "UNCLEAR",
+    "evidence": "The FC drawing pages provided (H8099-00, H8099-G1, H8099-G2) are predominantly text, specifications, and site plans with minimal layer-dependent graphical elements visible. The overall site plan (H8099-G2) shows existing and proposed elements but the image resolution and contrast make it impossible to definitively verify whether existing elements use unbold/light layers versus proposed elements using bold layers. The legend on H8099-G2 indicates 'EXISTING' and 'PROPOSED' distinctions but layer weight/boldness cannot be clearly assessed from these images. A detailed layer inspection in the source CAD file would be required for accurate verification."
+  },
+  {
+    "rule_id": "R005",
+    "rule_text": "Site number/Name/Address details correct",
+    "verdict": "FAIL",
+    "evidence": "Site ID mismatch: Drawing shows H8099 but reference shows H8097. Site Name matches (AUSTINS FERRY). Address matches (LOT 13 PLAN 178737, POIMENA RESERVE, WAKEHURST RD, AUSTINS FERRY, TAS 7011). JV Site ID matches (JH3038)."
+  },
+  {
+    "rule_id": "R006",
+    "rule_text": "Add structure owner site ID. (Indara, Amplitel & BAI etc)",
+    "verdict": "PASS",
+    "evidence": "Structure owner site ID is present: JV SITE ID: JH3038 is clearly displayed on the cover sheet and site specifications page."
+  },
+  {
+    "rule_id": "R007",
+    "rule_text": "Work authority number is correct",
+    "verdict": "PASS",
+    "evidence": "Work Authority Number 658102 is clearly visible on the cover sheet of the FC drawing. It is displayed as a 6-digit number and matches the format specified in the rule. The WA number appears in the text 'OPTUS WORK AUTHORITY N\u00b0 658102' on the first drawing page."
+  },
+  {
+    "rule_id": "R008",
+    "rule_text": "Client logo is correct",
+    "verdict": "PASS",
+    "evidence": "Client logo 'OPTUS' is present and correct on all three drawing pages (G1, G1 detail, and G2). Vendor logo 'CPS' (TECHNOLOGY & INFRASTRUCTURE) is correctly displayed on all sheets. Both logos appear in the title block area of each page in the correct format matching the reference image."
+  },
+  {
+    "rule_id": "TEXT001",
+    "rule_text": "All text in uppercase font",
+    "verdict": "FAIL",
+    "evidence": "Found 183 lines with lowercase text. Examples: Page 1: UPGRADE 5G (eJV) | Page 2: Revision Details | Page 2: Client:"
+  },
+  {
+    "rule_id": "TEXT002",
+    "rule_text": "Prior to fabrication/installation notes must be highlighted",
+    "verdict": "PASS",
+    "evidence": "No PRIOR TO INSTALLATION/FABRICATION notes found"
+  }
+]

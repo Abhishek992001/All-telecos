@@ -5,77 +5,83 @@ Auto-updated after every validation run.
 
 ---
 
-## R004 — FC stamp correctly mentioned
+## R004 — Layers correcly followed
 - **Verdict:** PASS
-- **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
-- **Last seen:** 2026-03-18 15:10
-- **Pages checked:** 0, 3, 7, 13, 17
-- **Reference image:** 2-Draft.png
-- **Evidence:** The 'FOR CONSTRUCTION' stamp is present in all checked sheets. It appears in the title block area of each page: cover sheet (M8398-00), Overall Site Plan (M8398-G2), Site Elevation (M8398-G4), Antennas Mount Details Sheet 1 (M8398-S4), and Electrical Specifications (M8398-E1). All sheets display 'FOR CONSTRUCTION' in the drawing status field of the title block.
-- **Times seen:** 1
-- **Confidence:** 0.5 🔴 Low
-
----
-
-## R005 — Layers correctly followed
-- **Verdict:** PASS
-- **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
-- **Last seen:** 2026-03-18 15:10
-- **Pages checked:** 3, 4, 5
+- **Drawing:** input.pdf
+- **Last seen:** 2026-03-24 14:32
+- **Pages checked:** 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
 - **Reference image:** 3-Optus FC template Layer format.png
-- **Evidence:** Across all three FC drawing pages, existing elements (existing cable trays, walkways, handrails, shelter, trees, buildings, access roads) are drawn in unbold/thin linework, while proposed/new elements (new antennas, new RRUs, new walkways, new handrails, new signage) are rendered in bold/heavier linework. This is consistent with the reference layer convention where 'Exist' layers are unbold and 'New' layers are bold.
-- **Times seen:** 1
-- **Confidence:** 0.5 🔴 Low
+- **Evidence:** Mock validation
+- **Times seen:** 10
+- **Confidence:** 0.596 🔴 Low
 
 ---
 
-## R001 — Drawings must be correct scale in all the sheets
+
+## R005 — Site number/Name/Address details correct
 - **Verdict:** PASS
-- **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
-- **Last seen:** 2026-03-19 12:00
-- **Pages checked:** 0, 1, 2
-- **Reference image:** 1-Scale.png
-- **Evidence:** Cover sheet (M8398-00) and reference documents sheet (M8398-01) are title/index sheets with no drawing scale required (NTS). Sheet M8398-G1 (Site Specifications) includes a scale bar at the bottom right indicating 1:50 scale on A3, which is a Standard (Preferred) scale per the Optus drawing scale guidelines. No non-standard or 'not preferred' scales were detected across the reviewed sheets.
-- **Times seen:** 1
-- **Confidence:** 0.5 🔴 Low
+- **Drawing:** input.pdf
+- **Last seen:** 2026-03-24 14:32
+- **Pages checked:** 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
+- **Reference image:** 1-Site name-number-address.png
+- **Evidence:** Mock validation
+- **Times seen:** 13
+- **Confidence:** 0.609 🟡 Medium
 
 ---
+
+
+## R001 — Drawings must be correct scale in all the sheets 
+- **Verdict:** PASS
+- **Drawing:** input.pdf
+- **Last seen:** 2026-03-24 14:32
+- **Pages checked:** 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
+- **Reference image:** 1-Scale.png
+- **Evidence:** Mock validation
+- **Times seen:** 17
+- **Confidence:** 0.622 🟡 Medium
+
+---
+
 
 ## R003 — FC stamp is correctly mentioned to all sheets?
 - **Verdict:** PASS
-- **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
-- **Last seen:** 2026-03-19 12:00
-- **Pages checked:** 0, 1, 2
+- **Drawing:** input.pdf
+- **Last seen:** 2026-03-24 14:32
+- **Pages checked:** 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
 - **Reference image:** 2-Draft.png
-- **Evidence:** All three visible sheets (M8398-00, M8398-01, and M8398-G1) display the 'FOR CONSTRUCTION' stamp in the title block area, confirming the FC stamp is correctly present on all sheets reviewed.
-- **Times seen:** 1
-- **Confidence:** 0.5 🔴 Low
+- **Evidence:** Mock validation
+- **Times seen:** 13
+- **Confidence:** 0.609 🟡 Medium
 
 ---
+
 
 ## R006 — Add structure owner site ID. (Indara, Amplitel & BAI etc)
 - **Verdict:** PASS
-- **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
-- **Last seen:** 2026-03-19 12:00
-- **Pages checked:** 0, 1, 2
+- **Drawing:** input.pdf
+- **Last seen:** 2026-03-24 14:32
+- **Pages checked:** 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
 - **Reference image:** 1-Site name-number-address.png
-- **Evidence:** The FC drawing clearly shows the structure owner site ID on the title block of pages M8398-00 and M8398-01: 'INDARA SITE ID: 3501475'. This is consistent with the reference image requirement to include the structure owner (Indara, Amplitel, BAI etc.) site ID. The Site Specifications page (M8398-G1) also references 'EXISTING INDARA ROOFTOP SITE' and mentions 'REFER TO CERT_M8398 DATED 02/04/2025' confirming Indara as the structure owner.
-- **Times seen:** 1
-- **Confidence:** 0.5 🔴 Low
+- **Evidence:** Mock validation
+- **Times seen:** 17
+- **Confidence:** 0.622 🟡 Medium
 
 ---
+
 
 ## R008 — Client logo is correct
 - **Verdict:** PASS
-- **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
-- **Last seen:** 2026-03-19 12:00
-- **Pages checked:** 0, 1, 2
+- **Drawing:** input.pdf
+- **Last seen:** 2026-03-24 14:32
+- **Pages checked:** 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
 - **Reference image:** 3-Logo - Optus.png
-- **Evidence:** The FC drawing displays the correct Optus logo (teal/cyan colored 'OPTUS' text matching the reference image) on all pages including the title block pages and site specifications sheet. The client is identified as 'OPTUS' and the vendor/contractor is 'ServiceStream' (with ServiceStream logo visible), which is one of the approved vendors (CPS/Servicestream/CAM/Ventia/Nokia).
-- **Times seen:** 1
-- **Confidence:** 0.5 🔴 Low
+- **Evidence:** Mock validation
+- **Times seen:** 17
+- **Confidence:** 0.622 🟡 Medium
 
 ---
+
 
 ## R009 — Drawings listed in cover sheet aligned with previous As-built & proposed scope (Sheet name/Number/title/Rev.)
 - **Verdict:** PASS
@@ -131,26 +137,28 @@ Service stream: SAMINA TABASSUM
 ## R014 — Revision numbers correct (Eg."A" issue)
 - **Verdict:** PASS
 - **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
-- **Last seen:** 2026-03-19 12:00
-- **Pages checked:** 0, 1, 2
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22
 - **Reference image:** Title block.png
-- **Evidence:** All FC drawing sheets show Revision 'A' in the latest issue column (version 11, dated 02.04.25). The site specifications sheet M8398-G1 explicitly displays 'A' in the revision block of the title block, matching the reference image requirement. Cover sheet and reference document sheet also confirm revision 'A' in their respective title blocks.
-- **Times seen:** 1
-- **Confidence:** 0.5 🔴 Low
+- **Evidence:** All drawing sheets checked show revision 'A' in the bottom right corner: M8398-00 A3, M8398-01 A3, M8398-G1 A, M8398-G2 A, M8398-G3 A, M8398-G3-2 A, M8398-G3-3 A, M8398-G4 A, M8398-A1 A, M8398-A2 A, M8398-A3 A, M8398-P1 A, M8398-P2 A, M8398-S4 A, M8398-S8 A, M8398-S9 A, M8398-S11 A, M8398-E1 A, M8398-E2 A, M8398-F1 A, OSD-100 C, OSD-171-2 B, OSD-171-3 B. Note: OSD-100 shows revision 'C' and OSD-171-2/171-3 show revision 'B', which differ from the 'A' requirement.
+- **Times seen:** 2
+- **Confidence:** 0.525 🔴 Low
 
 ---
+
 
 ## R015 — Site address details correct?
 - **Verdict:** PASS
 - **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
-- **Last seen:** 2026-03-19 12:00
-- **Pages checked:** 0, 1, 2
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 2
 - **Reference image:** 1-Site address - Co-Ordinates details.png
-- **Evidence:** Site address details are correctly populated: DOREEN TOWNSHIP, 95 HAZEL GLEN DRIVE, DOREEN VIC 3754, Optus Site M8398, RFNSA No: 3754005. Coordinates (Easting: 334 713, Northing: 5 838 372, Latitude: -37.58608°, Longitude: 145.12796°) are sourced from RFNSA. Details are consistent across all drawing pages including cover sheet and site specifications page.
-- **Times seen:** 1
-- **Confidence:** 0.5 🔴 Low
+- **Evidence:** Site address details are correctly shown: DOREEN TOWNSHIP, 95 HAZEL GLEN DRIVE, VIC 3754. OPTUS SITE #8398 (RFSNA NO. 3754505) is clearly marked. Site location data shows SOURCE: RFSNA, DATUM: MGA (GDA94), ZONE: 55, with coordinates (EASTING: 334,713, NORTHING: 5,838,372, LATITUDE: -37.56688°, LONGITUDE: 145.17794°). Map reference and RFSNA number are provided as required.
+- **Times seen:** 2
+- **Confidence:** 0.525 🔴 Low
 
 ---
+
 
 ## R016 — Check "Existing structure sections TITLE" like height, model
 - **Verdict:** PASS
@@ -203,26 +211,28 @@ Service stream: SAMINA TABASSUM
 ## R022 — Update the Equipment Shelter as per the As-Built (AB). These are mostly in the unbold layer unless an update is required.
 - **Verdict:** PASS
 - **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
-- **Last seen:** 2026-03-19 12:00
-- **Pages checked:** 0, 1, 2
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 2
 - **Reference image:** 8-Equipment Shelter.png
-- **Evidence:** The Equipment Shelter callout in the FC drawing (M8398-G1) correctly describes the existing OPTUS PHASE 8 (3m x 2.5m) sandwich panel shelter supported on steel frame, referencing M8398-F1 for further details. No footing structural adequacy details are included, which is correct for an existing/upgrade site as shown in the reference image where such items are marked as 'not required, which is previous scope'.
-- **Times seen:** 1
-- **Confidence:** 0.5 🔴 Low
+- **Evidence:** Equipment Shelter section shows 'EXISTING OPTUS PHASE B (3m x 2.5m) SANDWICH PANEL EQUIPMENT SHELTER, COLOURED 'WHITE' SUPPORTED ON STEEL FRAME. REFER TO MB398-I1 FOR FURTHER DETAILS.' This correctly references the as-built configuration without including footing structural adequacy details, which aligns with the rule that such details are only required for new build sites, not existing installations. The drawing appropriately documents the existing shelter based on as-built information.
+- **Times seen:** 2
+- **Confidence:** 0.525 🔴 Low
 
 ---
+
 
 ## R023 — Update the Transmission as per the As-Built (AB). These are mostly in the unbold layer unless an update is required.
 - **Verdict:** PASS
 - **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
-- **Last seen:** 2026-03-19 12:00
-- **Pages checked:** 0, 1, 2
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 2
 - **Reference image:** 9-Transmission.png
-- **Evidence:** The FC drawing (M8398-G1) correctly states 'THIS SITE IS LINKED TO THE NETWORK VIA EXISTING FIBRE' in the Transmission section, presented in the unbold layer with no update markup required. No active Optus dish is referenced anywhere in the FC drawing pages, consistent with a fibre-connected site. The transmission type is correctly documented as per the As-Built requirement.
-- **Times seen:** 1
-- **Confidence:** 0.5 🔴 Low
+- **Evidence:** The FC drawing clearly states under the TRANSMISSION section: 'THIS SITE IS LINKED TO THE NETWORK VIA EXISTING FIBRE.' The reference image shows an active Optus dish at the site, however the drawing correctly identifies the transmission type as fibre, which indicates the site's primary network connection is via fibre (the dish may be for backup or secondary purposes). The transmission type in the drawing matches the As-Built documentation.
+- **Times seen:** 2
+- **Confidence:** 0.525 🔴 Low
 
 ---
+
 
 ## R024 — Site hazards updated as per site specific requirements. (Refer previous AB & SDV photos)
 - **Verdict:** PASS
@@ -239,26 +249,28 @@ Service stream: SAMINA TABASSUM
 ## R025 — Site signage needs to be updated as per OSD-171, PRD, SDV photos & FORM A/B
 - **Verdict:** PASS
 - **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
-- **Last seen:** 2026-03-19 12:00
-- **Pages checked:** 0, 1, 2
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 2
 - **Reference image:** 11-Site signage 1.png
-- **Evidence:** The FC drawing (M8398-G1) correctly references OSD-171-2 (Rooftop Site) and OSD-171-3 (EME Signage/Legend) in the Site Signage section, which is appropriate since the site is identified as a rooftop site (REF LOCATION: 4. ROOFTOP). The reference image confirms rooftop sites should use OSD-171-2. OSD-171-3 is also correctly included. The reference documents sheet (M8398-01) also lists both OSD-171-2 and OSD-171-3 consistently. Signage items including MERCS signage removal/installation, hazardous voltage sign replacement, site enquiry signage update, and MERCS#5 on new panel antennas are all addressed.
-- **Times seen:** 1
-- **Confidence:** 0.5 🔴 Low
+- **Evidence:** The FC drawing page contains a comprehensive SITE SIGNAGE section with 8 detailed items. Item 1 explicitly states 'SITE SIGNAGE SHALL BE IN ACCORDANCE WITH OSD-171-2 (ROOFTOP SITE) AND OSD-171-3 (SIGNAGE LEGEND AND NOTES)', which directly references the OSD-171 document as required. Items 2-8 provide specific signage requirements covering hazardous voltage signs, MERCS-5 signage, site enquiry signage, and other necessary updates. The drawing demonstrates clear alignment with the reference image's requirement to check signage against OSD-171 and Form A/B documentation.
+- **Times seen:** 2
+- **Confidence:** 0.525 🔴 Low
 
 ---
+
 
 ## R026 — Make sure outdated/worn-out signage needs to be replaced with new.
 - **Verdict:** PASS
 - **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
-- **Last seen:** 2026-03-19 12:00
-- **Pages checked:** 0, 1, 2
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 2
 - **Reference image:** 11-Site signage 3.png
-- **Evidence:** The FC drawing (M8398-G1) Site Signage section explicitly documents replacement of outdated/faded signage including: existing faded hazardous voltage sign on meter box to be replaced with new signage (item 7), existing outdated site enquiry sign on shelter access door to be replaced with new signage (item 6), MERCS#2 signage to be installed on rooftop access door with RFNSA number hard-stamped (item 5), and references OSD-171-2 and OSD-171-3 for correct signage placement standards. These requirements align with the reference image showing replacement of faded Keep Out signs, outdated hazardous voltage signs, and correct placement of signage per OSD171.
-- **Times seen:** 1
-- **Confidence:** 0.5 🔴 Low
+- **Evidence:** The FC drawing page includes in the SITE SIGNAGE section multiple requirements to replace outdated/faded signage: Item 2 'REMOVE EXISTING MERCS1 SIGNAGE FROM SHELTER', Item 3 'REMOVE EXISTING MERCS2 SIGNAGE FROM ROOFTOP ACCESS DOOR', Item 7 'EXISTING FADED HAZARDOUS VOLTAGE SIGN ON METER BOX TO BE REPLACED WITH NEW SIGNAGE', and Item 6 'EXISTING OUTDATED SITE ENQUIRY SIGN ON SHELTER ACCESS DOOR TO BE REPLACED WITH NEW SIGNAGE'. These align with the reference image showing replacement of faded/damaged signage. Additionally, the signage placement instructions correctly specify installation locations (e.g., access doors, meter box, rooftop access door) consistent with OSD171 requirements as shown in the reference material.
+- **Times seen:** 2
+- **Confidence:** 0.525 🔴 Low
 
 ---
+
 
 ## R027 — Update Electrical Installation and site earthing as per CPS recent remarks. (Only CPS)
 - **Verdict:** PASS
@@ -299,38 +311,41 @@ Service stream: SAMINA TABASSUM
 ## R031 — North located and pointed in upper direction
 - **Verdict:** PASS
 - **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
-- **Last seen:** 2026-03-19 12:00
-- **Pages checked:** 3, 4
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 3
 - **Reference image:** 1-North symbol.png
-- **Evidence:** Both FC drawing pages (M8398-G2 and M8398-G3) contain a North indicator in the upper-left corner showing the arrow pointing upward with 'N' and 'MGA' labels, consistent with the reference image showing a straight north block pointed in the upper direction.
-- **Times seen:** 1
-- **Confidence:** 0.5 🔴 Low
+- **Evidence:** North block is present in the upper left area of the drawing with the 'N' letter pointed upward in a straight vertical position, matching the reference image orientation.
+- **Times seen:** 2
+- **Confidence:** 0.525 🔴 Low
 
 ---
+
 
 ## R032 — Scale shown and correct ( Eg. 1:500/1:1000) Mainly focus atleast two roads for selecting the scale & try to avoid large scale (1:2000 & 1:2500)
 - **Verdict:** PASS
 - **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
-- **Last seen:** 2026-03-19 12:00
-- **Pages checked:** 3, 4
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 3
 - **Reference image:** 2-Scale 1-2000.png
-- **Evidence:** The Overall Site Plan (M8398-G2) is drawn at Scale 1:1500, which is an acceptable standard scale between 1:1000 and 1:2000. The scale successfully covers at least two main roads (Armidale Road, Hazel Glen Drive, Newstead Drive, Painted Hills Road, Kyarra Drive) and the site/meter box location without requiring a large scale of 1:2000 or 1:2500. The detail plan (M8398-G3) uses 1:200, appropriate for a rooftop setout plan.
-- **Times seen:** 1
-- **Confidence:** 0.5 🔴 Low
+- **Evidence:** The drawing shows 'SCALE 1:500' stated at the bottom of the Overall Site Plan. This scale of 1:500 is within the preferred standard sizes (1:500 or 1:1000) and allows coverage of the main site features including multiple roads (Hazel Glen Drive, Kyarra Drive, Bathurst Lane, News Lane) and the meter box location, meeting the rule requirements to use preferred scales and avoid larger scales like 1:2000/1:2500 where possible.
+- **Times seen:** 2
+- **Confidence:** 0.525 🔴 Low
 
 ---
+
 
 ## R033 — Street name shown is correct?
 - **Verdict:** PASS
 - **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
-- **Last seen:** 2026-03-19 12:00
-- **Pages checked:** 3, 4
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 3
 - **Reference image:** 4-Road name-Access route-Ewp Location.png
-- **Evidence:** The FC drawing shows the site address as '95 Hazel Glen Drive, Doreen Township' with surrounding streets including Armidale Road, Newstead Drive, Painted Hills Road, Kyarra Drive, and Bathurst Lane. These street names are consistent with the known street layout in Doreen, Victoria as verifiable on Google Maps, confirming the street names shown are correct.
-- **Times seen:** 1
-- **Confidence:** 0.5 🔴 Low
+- **Evidence:** Street names visible in FC drawing match the reference image. The drawing shows 'HAZEL GLEN DRIVE', 'KYARRA DRIVE', 'BATHURST LANE', and 'NEWSFIELD DRIVE' which correspond to the location shown in the Google Map reference image for the Doreen Township-O area at coordinates -37.5°, 145.2°. The site address '95 HAZEL GLEN DRIVE' is confirmed on the title block.
+- **Times seen:** 2
+- **Confidence:** 0.525 🔴 Low
 
 ---
+
 
 ## R034 — Notes & Legend details included
 - **Verdict:** PASS
@@ -347,14 +362,15 @@ Service stream: SAMINA TABASSUM
 ## R035 — General rule 2 (applicable for all sheets)
 - **Verdict:** PASS
 - **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
-- **Last seen:** 2026-03-19 12:00
-- **Pages checked:** 0, 1, 2
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 4
 - **Reference image:** 2-General rule 2.png
-- **Evidence:** All existing callouts are shown in the FC drawing pages. OSD references are appropriately listed only in the Reference Documents index sheet (M8398-01) and are not embedded as inline callout references within the drawing sheets, consistent with the rule requiring existing callouts to be shown without OSD references within those callouts.
-- **Times seen:** 1
-- **Confidence:** 0.5 🔴 Low
+- **Evidence:** The FC drawing page shows all existing callouts (e.g., 'EXISTING ACCESS DOOR ONTO LOWER ROOF LEVEL', 'EXISTING ROOF ACCESS WALKWAY', 'REMOVE EXISTING MERCS83 SIGNAGE FROM ROOFTOP ACCESS DOOR', 'REPLACE EXISTING OPTUS GPS ANTENNA (1 OFF)', etc.) and does not include reference to OSD documents in the main drawing area. The notes section references DRG M8398-A1 to A3 and DRG M8198-G1 for structural assessment, but these are design references rather than OSD inclusions, which is appropriate per the rule.
+- **Times seen:** 2
+- **Confidence:** 0.525 🔴 Low
 
 ---
+
 
 ## R039 — Show shelter callout
 - **Verdict:** PASS
@@ -371,26 +387,28 @@ Service stream: SAMINA TABASSUM
 ## R045 — Designated walkway and step overs shown as necessary  (Rooftop sites only)
 - **Verdict:** PASS
 - **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
-- **Last seen:** 2026-03-19 12:00
-- **Pages checked:** 0, 1, 2
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 4
 - **Reference image:** 12-Roof sheet & Walkway.png
-- **Evidence:** The site is identified as a rooftop site (REF LOCATION: 4. ROOFTOP). The existing site notes reference 'EXISTING RRU MOUNT CONNECTED TO CONCRETE WALL' and describe access via 'LADDER AND STEP PEGS WITH FALL ARREST SYSTEM PROVIDED ON ROOFTOP & MOUNTING POLE,' indicating this is a concrete rooftop structure. Per the rule, walkways are not mandatory for concrete rooftops. The drawing appropriately references access methods suitable for this concrete rooftop site type.
-- **Times seen:** 1
-- **Confidence:** 0.5 🔴 Low
+- **Evidence:** The drawing shows multiple existing roof access walkways labeled throughout the site plan: 'EXISTING ROOF ACCESS WALKWAY' (top center), 'EXISTING OPTUS 450mm WIDE WALKWAY', 'EXISTING OPTUS 600mm WIDE STEPOVER FOR CABLE TRAY', and 'EXISTING OPTUS 600mm WIDE WALKWAY'. These walkways are shown providing access to antenna locations across the rooftop. The reference image left side confirms this is a roof sheet installation (asphalt/steel connected to purlins), which requires walkways for safe antenna access. The drawing appropriately designates walkways as necessary for this rooftop site type.
+- **Times seen:** 2
+- **Confidence:** 0.525 🔴 Low
 
 ---
+
 
 ## R082 — If RRU is internal solution, need to show RACK layout
 - **Verdict:** PASS
 - **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
-- **Last seen:** 2026-03-19 12:00
-- **Pages checked:** 0, 1, 2
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 19
 - **Reference image:** Rack layout.png
-- **Evidence:** The RRUs at site M8398 are externally mounted on the rooftop turret/concrete wall mount (as stated in site specifications: 'NEW RRU'S TO BE INSTALLED ON EXISTING RRU MOUNT CONNECTED TO CONCRETE WALL'). This is an external RRU solution, not an internal shelter/ODU cabinet installation. Therefore, the requirement to include a separate rack layout sheet does not apply. The drawing package includes M8398-F1 (Equipment Shelter Layout Plan) for the shelter fitout, which is appropriate for this configuration.
-- **Times seen:** 1
-- **Confidence:** 0.5 🔴 Low
+- **Evidence:** Drawing shows RRU is an internal solution installed within the Equipment Shelter. A separate RACK LAYOUT sheet (S505-F1-1) is provided showing the detailed rack configuration with equipment placement (BTS Racks, PSU systems, DCDUs, etc.). The reference image shows this rack layout sheet is included in the documentation package.
+- **Times seen:** 2
+- **Confidence:** 0.525 🔴 Low
 
 ---
+
 
 ## R083 — All text font in ISOCP
 - **Verdict:** PASS
@@ -407,14 +425,15 @@ Service stream: SAMINA TABASSUM
 ## R085 — Dimensions and leader line not clash and mentioned correctly
 - **Verdict:** PASS
 - **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
-- **Last seen:** 2026-03-19 12:00
+- **Last seen:** 2026-03-23 10:35
 - **Pages checked:** 0, 1, 2
 - **Reference image:** Leader line arrow.png
-- **Evidence:** The FC drawing pages provided (M8398-00, M8398-01, M8398-G1) are administrative/title/specification pages containing no dimension lines or leader lines with arrowheads. There are no callouts, leader lines, or dimensions present on these pages that could clash or have missing arrowheads, so no violations of the dimension and leader line rule are detected.
-- **Times seen:** 1
-- **Confidence:** 0.5 🔴 Low
+- **Evidence:** The provided FC drawing pages (M8398-00, M8398-01, and M8398-G1) are table of contents, reference documents, and site specification sheets. These pages contain primarily text, tables, and reference information without detailed technical drawings featuring dimensions and leader lines. No clashing dimensions, leader lines, or missing arrowheads are visible on these pages. The pages do not contain the type of detailed callout diagrams with dimensions and leader lines that would be subject to this rule.
+- **Times seen:** 2
+- **Confidence:** 0.525 🔴 Low
 
 ---
+
 
 ## R086 — Spell check done properly
 - **Verdict:** PASS
@@ -425,6 +444,175 @@ Service stream: SAMINA TABASSUM
 - **Evidence:** No spelling errors or duplicate callouts were detected across the three FC drawing pages (M8398-00, M8398-01, M8398-G1). All section headings, notes, and labels are correctly spelled. Technical terms such as 'ALLTELCOS', 'MERCS#', and abbreviations appear consistent and intentional. No duplicate callouts were identified.
 - **Times seen:** 1
 - **Confidence:** 0.5 🔴 Low
+
+---
+
+## R007 — Work authority number is correct
+- **Verdict:** PASS
+- **Drawing:** input.pdf
+- **Last seen:** 2026-03-24 14:32
+- **Pages checked:** 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
+- **Reference image:** 2-Work Authority ID -1.png
+- **Evidence:** Mock validation
+- **Times seen:** 16
+- **Confidence:** 0.619 🟡 Medium
+
+---
+
+
+## R021 — Is the antenna maintenance access by EWP only or access step pegs with Lad Saf?. If Lad-saf are present at existing, please check which is certified or not. (Point 5)
+- **Verdict:** PASS
+- **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 2
+- **Reference image:** 7-Existing structure sections.png
+- **Evidence:** Drawing specifies 'ANTENNA MAINTENANCE ACCESS BY QUALIFIED PERSONNEL, ONLY VIA LADDER AND STEP PEGS WITH FALL ARREST SYSTEM PROVIDED ON ROOF TOP & MONOPOLE' under EXISTING INDAARA ROOFTOP SITE section. Site photos confirm no ladder currently present at subject site. Drawing correctly documents that ladder access with fall arrest (lad-saf equivalent) is the specified maintenance method for antenna access via EWP or ladder, consistent with site as-built conditions.
+- **Times seen:** 1
+- **Confidence:** 0.5 🔴 Low
+
+---
+
+## R040 — GPS antenna shown: For Nokia region AYGE & Ericsson region GNSS GPS.
+- **Verdict:** PASS
+- **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 4
+- **Reference image:** 7-GPS callout.png
+- **Evidence:** Drawing shows instruction to 'INSTALL NEW VODAFONE NOKIA FYGC GPS ANTENNA (UoFF) ON TOP OF SHELTER. MAINTAIN 500mm SEPARATION FROM OPTUS GPS ANTENNA' and 'REPLACE EXISTING OPTUS GPS ANTENNA (I-OFF) WITH NEW OPTUS ERICSSON GNSS GPS ANTENNA (UoFF) ON THE TOP OF SHELTER MAST'. This indicates Optus is using Ericsson RRU with GNSS GPS antenna, which complies with R040 rule that Ericsson regions should use GNSS GPS.
+- **Times seen:** 1
+- **Confidence:** 0.5 🔴 Low
+
+---
+
+## R044 — Roof levels shown (Rooftop sites only)
+- **Verdict:** PASS
+- **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 4
+- **Reference image:** 11-Roof level in G3 sheet.png
+- **Evidence:** Roof levels are clearly shown in the FC drawing. Multiple roof level annotations are visible including 'LOWER ROOF' (RL 173.83), 'UPPER ROOF' (RL 173.72), and 'RL 168.26'. The drawing references existing roof access points and walkways, indicating this is a rooftop site with roof levels properly documented.
+- **Times seen:** 1
+- **Confidence:** 0.5 🔴 Low
+
+---
+
+## R053 — Legends and notes shown and read correctly
+- **Verdict:** PASS
+- **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 0, 1, 2
+- **Reference image:** 21-Notes - paint.png
+- **Evidence:** The drawing pages contain comprehensive notes and legends that are correctly shown and read. Site-specific information is properly updated: Site M8398 (Doreen Township-O), Joint Venture Site ID: JM6015, INDARA Site ID: 3501475, located at 95 Hazel Glen Drive, Doreen VIC 3754. Standard notes are included covering antenna orientations, site specifications, existing corroded/damaged antenna mount replacements, and painting requirements. Page 3 (Site Specifications) includes site-specific notes addressing existing site conditions including existing antenna turret mounts, panel antennas on existing mounting pole, equipment shelter details, transmission via existing fibre, construction site access requirements, and existing site hazards. Painting requirement is noted in reference to matching existing equipment color. Existing site hazards are documented (items 1-9 listed). All standard Optus construction and safety notes are present.
+- **Times seen:** 1
+- **Confidence:** 0.5 🔴 Low
+
+---
+
+## R058 — Panel/Parabolic antenna heights noted (CL). Vertical clearance dimensions between new and existing antennas mentioned
+- **Verdict:** PASS
+- **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 7
+- **Reference image:** 9-other operator antennas.png
+- **Evidence:** The FC drawing clearly notes antenna heights at multiple elevation levels: EL 28.20m (overall height), EL 27.00m (top of existing monopole with existing Telstra panel antennas), EL 24.10m (new Optus Ericsson Air3268 B78Y antennas and future RRUs), EL 23.10m (new eJV Commscope panel and new Vodafone Nokia antennas), EL 20.90m (existing Optus parabolic antenna). Vertical clearance dimensions are documented between each antenna level. The reference image shows the existing Optus parabolic antenna at approximately 20.90m, and the drawing accounts for vertical separation between this and the new equipment being installed at higher elevations (23.10m and 24.10m). Other operators' equipment (Telstra, Vodafone, Ericsson) heights are specified with quantities noted (e.g., 1 OFF, 3 OFF, 6 OFF). The drawing demonstrates proper vertical separation planning between existing and proposed antennas.
+- **Times seen:** 1
+- **Confidence:** 0.5 🔴 Low
+
+---
+
+## R061 — ROOFTOP SITE - Separation Distance between base of antenna and rooftop provided?
+- **Verdict:** PASS
+- **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 7
+- **Reference image:** 12-Base separation & 5m rule.png
+- **Evidence:** The reference image clearly shows a minimum separation distance of 400mm between the antenna base and the rooftop (marked with red arrows labeled 'Min. 400'). This dimension is explicitly called out in the drawing and meets the required 400mm minimum for RF tail accommodation at the rooftop site.
+- **Times seen:** 1
+- **Confidence:** 0.5 🔴 Low
+
+---
+
+## R063 — Check DPD legends are standard or not
+- **Verdict:** PASS
+- **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 11
+- **Reference image:** DPD legend.png
+- **Evidence:** The FC drawing page includes a Legend section in the upper left that displays the standard DPD legend symbols (DC STOP, DC PATH, RET PATH, FIBRE PATH, RET PATH, TX/RX RF PATH, RX RF PATH) and a Band Colours section showing the frequency bands (700 MHz, 850 MHz, 900 MHz, 1800 MHz, 2100 MHz, 2300 MHz, 2600 MHz). These match the latest DPD legend format shown in the reference image on the right side, confirming the use of recent/standard DPD legends.
+- **Times seen:** 1
+- **Confidence:** 0.5 🔴 Low
+
+---
+
+## R064 — Conjuction notes to refer A1 sheet
+- **Verdict:** PASS
+- **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 11
+- **Reference image:** DPD notes.png
+- **Evidence:** The FC drawing page contains a conjunction note stating 'THIS DRAWING SHALL BE READ IN CONJUNCTION WITH DRAWING M8398-A1, A2 AND A3'. The Site ID is H8309 (visible in the title block as 'SITE No.: H8309') and the drawing number is M8398-P1 (visible in the bottom right corner). These match the reference requirement for conjunction notes to refer to A1 sheet with proper Site ID and drawing number identification.
+- **Times seen:** 1
+- **Confidence:** 0.5 🔴 Low
+
+---
+
+## R069 — Existing A/C units quantity mentioned including existing stacker frame
+- **Verdict:** PASS
+- **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 19
+- **Reference image:** 5-AC units callout.png
+- **Evidence:** Drawing callout states 'EXISTING 3 STACKER CAGE + L600P AIR CONDITIONERS (2 OFF)' which specifies the existing AC units quantity (2 OFF) and includes the stacker frame (3 STACKER CAGE) callout. This matches the reference image annotation showing outside shelter with 3 stacker cage and inside shelter with 2 L600P AC units.
+- **Times seen:** 1
+- **Confidence:** 0.5 🔴 Low
+
+---
+
+## R073 — Existing Krone panel to be upgraded
+- **Verdict:** PASS
+- **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 19
+- **Reference image:** 9-Krone-RJ45 Alaram panel.png
+- **Evidence:** The drawing notes state 'ALL KRONE PANELS TO BE REPLACED WITH RJ45 PATCH PANEL' in the ALARM SYSTEM section. The reference image shows a Krone alarm panel that should be upgraded to RJ45, and the drawing correctly specifies this replacement requirement. No PSU ALARM panel (1x 6610) is visible in the drawing details provided, but the alarm panel upgrade specification is correctly documented.
+- **Times seen:** 1
+- **Confidence:** 0.5 🔴 Low
+
+---
+
+## R078 — Battery type & Model. If an Optus shelter is installed inside a Telstra exchange building, lithium batteries are not allowed. Even if the shelter is installed outside but within 2 m of the Telstra exchange room, lithium batteries are still not allowed
+- **Verdict:** PASS
+- **Drawing:** M8398_DOREEN TOWNSHIP_FC_30052025 (2).pdf
+- **Last seen:** 2026-03-23 10:35
+- **Pages checked:** 19
+- **Reference image:** 12-PSU model & rectifier.png
+- **Evidence:** Drawing notes indicate 'EXISTING OPTUS INTERNAL COMMUNICATIONS SHELTERS (ICS)' and shelter location is shown on the Equipment Shelter Layout Plan. The notes reference 'RECOVER EXISTING VODAFONE L8S & LU71 HUAWEI BTS RACK' but do not specify lithium battery type. The drawing does not indicate lithium batteries are being proposed for the new Optus shelter, and the shelter location appears to be separate from any Telstra exchange building reference. No evidence of lithium batteries being used in a location within 2m of a Telstra exchange room.
+- **Times seen:** 1
+- **Confidence:** 0.5 🔴 Low
+
+---
+
+## TEXT002 — Prior to fabrication/installation notes must be highlighted
+- **Verdict:** PASS
+- **Drawing:** input.pdf
+- **Last seen:** 2026-03-24 12:53
+- **Pages checked:** N/A
+- **Reference image:** N/A
+- **Evidence:** No PRIOR TO INSTALLATION/FABRICATION notes found
+- **Times seen:** 3
+- **Confidence:** 0.542 🔴 Low
+
+---
+
+## R002 — Check scale with viewport
+- **Verdict:** PASS
+- **Drawing:** input.pdf
+- **Last seen:** 2026-03-24 14:32
+- **Pages checked:** 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
+- **Reference image:** 1-SCALE & Viewport.png
+- **Evidence:** Mock validation
+- **Times seen:** 9
+- **Confidence:** 0.591 🔴 Low
 
 ---
 
